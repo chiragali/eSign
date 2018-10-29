@@ -1,0 +1,17 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.18t|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+
+[INVALID]
+C:\Program Files (x86)\Adobe\Reader 10.0\Reader\AIR\nppdf32.dll|$
+1325596244000|$
+C:\Program Files (x86)\Google\Update\1.3.33.17\npGoogleUpdate3.dll|$
+1535693848953|$
+C:\PROGRA~2\MICROS~1\Office15\NPSPWRAP.DLL|$
+1349104092000|$
+C:\Program Files (x86)\Mozilla Firefox\plugins\npMeetingJoinPluginOC.dll|$
+1349104434000|$

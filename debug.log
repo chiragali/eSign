@@ -1,0 +1,64 @@
+[0724/152856.509:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0724/154533.265:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0724/182822.722:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0725/132240.190:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0725/135808.852:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0725/141843.302:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0725/145249.433:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0725/145953.361:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0725/152233.771:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0725/214553.756:ERROR:file_io_win.cc(161)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir6596_26331\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0725/214553.756:ERROR:file_io_win.cc(170)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir6596_26331\Crashpad\reports\5675d1a6-5e61-4782-af26-4b38f23a2f87.dmp: The system cannot find the path specified. (0x3)
+[0725/214553.756:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0727/100347.163:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0727/112607.367:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0729/133123.396:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0731/113249.830:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0731/173506.098:ERROR:file_io_win.cc(161)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir6496_3223\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0731/173506.126:ERROR:file_io_win.cc(170)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir6496_3223\Crashpad\reports\0d88570d-1149-49b3-906d-3b81b33b2cc3.dmp: The system cannot find the path specified. (0x3)
+[0731/173506.126:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0802/174200.721:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0802/174434.774:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0802/175647.364:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0802/183931.659:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0802/184737.815:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0803/121118.844:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0806/125048.066:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0806/143147.281:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0806/150332.809:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0806/150922.745:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0806/151555.805:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0806/174938.743:ERROR:file_io_win.cc(161)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir1916_22316\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0806/174938.744:ERROR:file_io_win.cc(170)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir1916_22316\Crashpad\reports\2a63eec9-13a7-490b-b23c-d576483ae189.dmp: The system cannot find the path specified. (0x3)
+[0806/174938.744:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0806/180719.182:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0806/181744.027:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0807/155121.182:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0808/111315.034:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0808/150603.604:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0808/172739.975:ERROR:file_io_win.cc(161)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir7604_26536\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0808/172740.145:ERROR:file_io_win.cc(170)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir7604_26536\Crashpad\reports\ed73d546-e91a-4665-bd75-03181a4a0dd1.dmp: The system cannot find the path specified. (0x3)
+[0808/172740.145:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0808/183826.801:ERROR:file_io_win.cc(161)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir6416_19485\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0808/183826.801:ERROR:file_io_win.cc(170)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir6416_19485\Crashpad\reports\ee50109c-fea5-4bfa-b305-37ab79287658.dmp: The system cannot find the path specified. (0x3)
+[0808/183826.801:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0809/125133.821:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0809/130119.663:ERROR:file_io_win.cc(161)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir5360_29655\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0809/130119.664:ERROR:file_io_win.cc(170)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir5360_29655\Crashpad\reports\adadad0d-bca4-47ec-a2bd-95194912db61.dmp: The system cannot find the path specified. (0x3)
+[0809/130119.664:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0809/133209.149:ERROR:file_io_win.cc(161)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir5416_21310\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0809/133209.150:ERROR:file_io_win.cc(170)] CreateFile C:\Users\KIWIQA~1\AppData\Local\Temp\scoped_dir5416_21310\Crashpad\reports\fda1210d-fdf6-41bd-9a9b-95fe914b54f1.dmp: The system cannot find the path specified. (0x3)
+[0809/133209.150:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0809/170826.774:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0809/172326.066:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0809/174957.687:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0809/175954.611:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0809/180902.761:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0810/105732.566:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0821/134148.328:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0821/134148.345:ERROR:exception_snapshot_win.cc(88)] thread ID 1404 not found in process
+[0905/140402.144:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0905/140402.146:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0905/140402.150:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0905/140402.150:ERROR:exception_snapshot_win.cc(88)] thread ID 5388 not found in process
+[0905/140402.150:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

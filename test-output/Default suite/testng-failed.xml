@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.automation.index.PackageIndex">
+        <methods>
+          <include name="TC_DB_31"/>
+          <include name="TC_DB_30"/>
+          <include name="TC_DB_11"/>
+          <include name="TC_DB_33"/>
+          <include name="TC_DB_10"/>
+          <include name="TC_DB_32"/>
+          <include name="setUp"/>
+          <include name="TC_DB_13"/>
+          <include name="TC_DB_35"/>
+          <include name="TC_DB_12"/>
+          <include name="TC_DB_34"/>
+          <include name="tearDown"/>
+          <include name="TC_DB_15"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="TC_DB_03"/>
+          <include name="TC_DB_25"/>
+          <include name="TC_DB_06"/>
+          <include name="TC_DB_28"/>
+          <include name="TC_DB_05"/>
+          <include name="TC_DB_27"/>
+          <include name="TC_DB_22"/>
+          <include name="TC_DB_02"/>
+          <include name="TC_DB_24"/>
+          <include name="demo"/>
+          <include name="TC_DB_01"/>
+          <include name="TC_DB_23"/>
+          <include name="TC_DB_08"/>
+          <include name="TC_DB_07"/>
+          <include name="TC_DB_29"/>
+          <include name="TC_DB_09"/>
+          <include name="TC_DB_04"/>
+          <include name="TC_DB_26"/>
+        </methods>
+      </class> <!-- com.automation.index.PackageIndex -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

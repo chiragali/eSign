@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>TestNG:  TC_DB_25 : Verify Archived functionality for status 'DECLINED'.</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TC_DB_25 : Verify Archived functionality for status 'DECLINED'.</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 26 12:46:35 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>508 seconds (508858 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.index.PackageIndex.TC_DB_25()'><b>TC_DB_25</b><br>Test class: com.automation.index.PackageIndex<br/>
+<a href="#Output-308825115" onClick='toggleBox("Output-308825115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-308825115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-308825115">
+<strong> <h3 style="color:DarkViolet"> TC_DB_25 : Verify Archived functionality for status 'DECLINED'.</h3> </strong><br/>
+<br><strong>Step 1 Enter Username.</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Username entered: sy1-dev09-owner@e-signsolutions.com</br><br/>
+<br><strong>Step 2 Enter Password.</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Password entered: N#abe7dd95b55c1d635349395d8d9244</br><br/>
+<br><strong>Step 3 Click on Login button.</strong></br><br/>
+<h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify user has logged in successfuly.</h3></b><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Welcome DEV09 Account</br><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+<br><strong>Step 4 Select workflow from dropdown.</strong></br><br/>
+<br><strong>Step 5 Click on 'Create' Button.</strong></br><br/>
+<br><strong>Step 6 Enter Borrower details to create package.</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Internl Reference: Reference_uTuxq</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name: autoFnameXTZtzAUtwp</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name: autoLnamezDMEJTzTGa</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email : auto_LsytQLXJaVFtOuvHXzBB@mailinator.com</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Mobile Number : +61444444444</br><br/>
+<br><strong>Step 7 Choose any random WAFR Attachments.</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> 4 Attachments going to be select.</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Transfer of Land</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Certificate of Insurance 1</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Certificate of Insurance 3</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  -> DCC</br><br/>
+<br><strong>Step 8 Click on Create Button to Create Package.</strong></br><br/>
+<br><strong>Step 9 Choose 'Cloude Services Agreement' checkbox to upload contract document.</strong></br><br/>
+<br><strong>Step 10 Upload any agreenment file template</strong></br><br/>
+<br><strong>Step 11 Click on 'Send Package' button.</strong></br><br/>
+<h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that package has successfully created and found in package table.</h3></b><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_uTuxq</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_uTuxq</br><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+<br><strong>Step 12 Open Mailinator to check if user has received package created notification.</strong></br><br/>
+<br><strong>Step 13 Enter test email address.</strong></br><br/>
+<br><strong>Step 14 Click on email notiction received from 'ACME Business Banking'.</strong></br><br/>
+<br><strong>Step 15 Click on 'Go to My documents' button to navigate Dashboard.</strong></br><br/>
+<br><strong>Step 16 Navigate to other tab and accept Consent.</strong></br><br/>
+<br><strong>Step 17 Click on 'Request SMS Authentication Code' button.</strong></br><br/>
+<br><strong>Step 18 Enter SMS Code.</strong></br><br/>
+<br><strong>Step 19 Click on Authenticate button to verify SMS Code.</strong></br><br/>
+<h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that user navigates to 'Documents Portal'.</h3></b><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Verify Borrower is navigated to portal.</br><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+<br><strong>Step 20 Click on 'View Document' of 'Product Disclosure Statement'.</strong></br><br/>
+<br><strong>Step 21 Click on 'Back to loan documents portal' button of 'Product Disclosure Statement'.</strong></br><br/>
+<h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'Not Viewed' state has been changed to 'Viewed'.</h3></b><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+<br><strong>Step 22 Click on 'Sign Online' button.</strong></br><br/>
+<br><strong>Step 23 Click on 'Decline' button</strong></br><br/>
+<br><strong>Step 24 Choose reason from Decline radio box</strong></br><br/>
+<br><strong>Step 25Switchback to Dashboard</strong></br><br/>
+<h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that package is Declined successfully and found in package table with DECLINED Status.</h3></b><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_uTuxq</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_uTuxq</br><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+<br><strong>Step 26 Click on 'Sent' icon to send package.</strong></br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_uTuxq</br><br/>
+<br><strong>Step 27 Click on 'Archive' button.</strong></br><br/>
+<br><strong>Step 28 Choose Inactive from Filter</strong></br><br/>
+<h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that package is ARCHIVED successfully and found in package table with ARCHIVED Status.</h3></b><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_uTuxq</br><br/>
+</br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_uTuxq</br><br/>
+<strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> <br/>
+</div>
+</td>
+<td></td>
+<td>472</td>
+<td>com.automation.index.PackageIndex@5c18298f</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestCleanUp" verbose="10" parallel="tests"
+	thread-count="1">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<!--    <parameter name="selenium.browser" value="chrome" />  -->
+	   <parameter name="selenium.browser" value="m-headless" />
+	 <!-- <parameter name="selenium.browser" value="firefox" /> -->  
+	<!-- <parameter name="selenium.browser" value="ie11" /> -->
+	<!-- <parameter name="selenium.browser" value="Android_Chrome" /> -->
+	<!-- <parameter name="selenium.browser" value="ie11" /> -->
+	<parameter name="selenium.url" value="http://google.com" />
+	<listeners>
+		<listener class-name="com.automation.utility.CustomReporterListener" />
+		<listener class-name="com.automation.utility.CustomReporterEmailBuildSummary" />
+		<listener class-name="com.automation.utility.CustomReporterforEmail" />
+		
+		<listener class-name="com.automation.utility.CustomReporterBuildSummary" />
+		<listener class-name="com.automation.utility.CustomReporterTestpassDetails" />
+		<listener class-name="com.automation.utility.CustomReporterTestFailureDetails" />
+		<listener class-name="com.automation.utility.CustomReporterTestskipDetails" />
+		<listener class-name="com.automation.utility.CustomReporterTestDetails" />
+	</listeners>
+
+ <!--  <test name="TC_DB_01: Verify submit signed loan document with one signer/borrower.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_01" />
+				</methods>
+			</class>
+		</classes>
+ </test> -->  
+		
+    <test name="TC_DB_02: Verify E2E workflow for package creation and upload signed document for three signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_02" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+ 	 <test name="TC_DB_03: Verify E2E workflow for package creation and upload signed document with two signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_03" />
+				</methods>
+			</class>
+		</classes>
+	</test>   
+
+   <!-- <test name="TC_DB_04: Verify Package status set to Draft.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_04" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+ 	  <test name="TC_DB_05: Verify email notification resend on email address update for borrower.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_05" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 
+	  <test name="TC_DB_06: Verify resend email notification on update email address for guarantor.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_06" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	 <test name="TC_DB_07: Verify resend email notiication on update email address for relationship manager.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_07" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	 <test	name="TC_DB_08: Verify Draft Package status changed to Sent for one signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_08" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->  
+
+	 <!-- <test name="TC_DB_09: Verify E2E sign workflow for resent package for one signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_09" />
+				</methods>
+			</class>
+		</classes>
+	</test>  --> 
+	
+	<!--  <test name="TC_DB_10: Verify Draft Package status changed to Sent for three signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_10" />
+				</methods>
+			</class>
+		</classes>
+	</test>  -->
+
+	<!-- <test name="TC_DB_11: Verify E2E sign workflow for resent package for three signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_11" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+	<!-- <test name="TC_DB_12: Verify error message for create package without sign document for one signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_12" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<!--  <test name="TC_DB_13:  Verify error message for create package without sign document for three signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_13" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="TC_DB_14: Verify signature document required error message for DRAFT package with one signer. ">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_14" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+			
+	
+ 	<test name="TC_DB_15: Verify signature document required error message for DRAFT package with three signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_15" />
+				</methods>
+			</class>
+		</classes>
+	</test>  -->
+		
+	<!-- <test name="TC_DB_22 : Verify Archived functionality for status 'COMPLETED'.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_22" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+<!-- <test name="TC_DB_23 : Verify Archived functionality for status 'DRAFT'.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_23" />
+				</methods>
+			</class>
+		</classes>
+	</test>  -->
+	
+	  <!-- <test name="TC_DB_24 : Verify Archived functionality for status 'OPTED_OUT'.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_24" />
+				</methods>
+			</class>
+		</classes>
+	</test>  
+	
+ 	 <test name="TC_DB_25 : Verify Archived functionality for status 'DECLINED'.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_25" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->   
+	
+ 	 <!--  <test name="TC_DB_26: Verify BYPASS functionality for package in DRAFT status.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_26" />
+				</methods>
+			</class>
+		</classes>
+	</test>   
+	
+	  <test name="TC_DB_27:Verify BYPASS functionality for package in SENT status for one signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_27" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	   <test name="TC_DB_28:Verify BYPASS functionality for package in SENT status for three signer.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_28" />
+				</methods>
+			</class>
+		</classes>
+	</test>  -->
+	
+	<!-- <test name="TC_DB_29 : Verify BYPASS functionality for package in SENT status for three signer when borrower has already signed.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_29" />
+				</methods>
+			</class>
+		</classes>
+	</test>  -->
+			
+	<!--    <test name="TC_DB_30 : Verify 'mark as complete' functionality for READY status  package.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_30" />
+				</methods>
+			</class>
+		</classes> 
+	</test> -->
+	
+	   <test name="TC_DB_32 : Verify the functionality when only 'required' checkbox is clicked.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_32" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	 <!-- <test name=" TC_DB_33: Verify Trash Functionality for SENT Icon.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_33" />
+				</methods>
+			</class>
+		</classes>
+	</test>  
+	
+  	 <test name=" TC_DB_34: Verify Trash Functionality for DRAFT Icon.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_34" />
+				</methods>
+			</class>
+		</classes>
+	 </test> --> 
+
+ <!-- <test name=" TC_DB_35: Verify Trash Functionality for Ready Status Package..">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_35" />
+				</methods>
+			</class>
+		</classes>
+	 </test> -->
+ 
+	<!--  <test name=" TC_DB_36: Verify Show My Packages Functionality.">
+		<classes>
+			<class name="com.automation.index.PackageIndex">
+				<methods>
+					<include name="TC_DB_36" />
+				</methods>
+			</class>
+		</classes>
+	 </test>  --> 
+	 
+	 
+	 
+	</suite>
+ 

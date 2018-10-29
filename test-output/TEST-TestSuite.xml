@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="71.532" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0\jre\bin"/>
+    <property name="java.vm.version" value="25.0-b55"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Project\eSign"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Project\eSign"/>
+    <property name="java.runtime.version" value="1.8.0-ea-b113"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="https.protocols" value="TLSv1.2"/>
+    <property name="classworlds.conf" value="E:\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2/bin;C:\Program Files\Java\jdk1.8.0/bin;C:\Program Files\Java\jdk1.8.0/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;E:\Backup Folder\Chirag Backup\Software\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0\bin;;."/>
+    <property name="maven.conf" value="E:\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="E:\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="DESKTOP-F17C8H7$"/>
+    <property name="java.class.path" value="E:\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f pom.xml -Dhttps.protocols=TLSv1.2 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0-ea"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TC_DB_01" classname="com.automation.index.PackageIndex" time="71.532">
+    <failure message="Cannot locate element with text: IBM Digital Contracts Demo v. 1&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;DESKTOP-F17C8H7&apos;, ip: &apos;192.168.1.165&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0-ea&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: IBM Digital Contracts Demo v. 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'DESKTOP-F17C8H7', ip: '192.168.1.165', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0-ea'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at com.automation.indexpage.PackageIndexpage.selectWorkflow(PackageIndexpage.java:66)
+	at com.automation.index.PackageIndex.TC_DB_01(PackageIndex.java:125)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+...
+... TestNG 6.14.2 by Cédric Beust (cedric@beust.com)
+...
+
+Call getURL.......
+full path E:\Project\eSign\Resources\Credential.xlsx con E:\Project\eSign\Resources\Credential.xlsx
+ Before Test 
+Set up Start =====
+creating directory: 
+DIR created
+full path E:\Project\eSign\Resources\Credential.xlsx con E:\Project\eSign\Resources\Credential.xlsx
+=========Chorme Driver ==========
+Call getURL.......
+full path E:\Project\eSign\Resources\Credential.xlsx con E:\Project\eSign\Resources\Credential.xlsx
+======Abstract Page======
+======Abstract Page======
+TC_DB_01: Verify submit signed loan document with one signer/borrower.
+Step 1 Enter Username.
+full path E:\Project\eSign\Resources\Credential.xlsx con E:\Project\eSign\Resources\Credential.xlsx
+  -> Username entered: sy1-dev09-owner@e-signsolutions.com
+Step 2 Click on Login button.
+Waiting for the element to be clickable.
+======Abstract Page======
+Verify user has logged in successfuly.
+
+full path E:\Project\eSign\Resources\Credential.xlsx con E:\Project\eSign\Resources\Credential.xlsx
+
+Failed to capture screenshot: Destination 'D:\Project\eSign\Screenshot\screenshots' directory cannot be created
+<br><Strong><font color=#FF0000>--Failed</font></strong>
+<a href='screenshots/LoginFailed.png' target='_new'>LoginFailed.png</a>
+Step 3 Select workflow from dropdown.
+]]></system-out>
+    <system-err><![CDATA[File Path ==================E:\Project\eSign\Resources\chromedriver_2_41.exe
+Sep 11, 2018 5:39:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 12140
+Only local connections are allowed.
+Sep 11, 2018 5:39:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Sep 11, 2018 5:39:57 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+]]></system-err>
+  </testcase>
+</testsuite>

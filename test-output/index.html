@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestCleanUp">
+              <span class="suite-name border-passed">TestCleanUp</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestCleanUp">
+                    <span>E:\New Projects\eSign\Build\Package.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestCleanUp">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestCleanUp">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestCleanUp">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestCleanUp">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestCleanUp">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestCleanUp">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestCleanUp" class="hide-methods passed suite-TestCleanUp"> (hide)</a> <!-- hide-methods passed suite-TestCleanUp -->
+                      <a href="#" panel-name="suite-TestCleanUp" class="show-methods passed suite-TestCleanUp"> (show)</a> <!-- show-methods passed suite-TestCleanUp -->
+                    </span>
+                    <div class="method-list-content passed suite-TestCleanUp">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestCleanUp" title="com.automation.index.PackageIndex" hash-for-method="TC_DB_02">TC_DB_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestCleanUp" title="com.automation.index.PackageIndex" hash-for-method="TC_DB_03">TC_DB_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestCleanUp" title="com.automation.index.PackageIndex" hash-for-method="TC_DB_32">TC_DB_32</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestCleanUp -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestCleanUp" class="panel TestCleanUp">
+          <div class="suite-TestCleanUp-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.index.PackageIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_DB_02">
+                  </a> <!-- TC_DB_02 -->
+                  <span class="method-name">TC_DB_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_DB_03">
+                  </a> <!-- TC_DB_03 -->
+                  <span class="method-name">TC_DB_03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_DB_32">
+                  </a> <!-- TC_DB_32 -->
+                  <span class="method-name">TC_DB_32</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestCleanUp-class-passed -->
+        </div> <!-- panel TestCleanUp -->
+        <div panel-name="test-xml-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\New Projects\eSign\Build\Package.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TestCleanUp&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
+  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;m-headless&quot;/&gt;
+  &lt;parameter name=&quot;selenium.url&quot; value=&quot;http://google.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterEmailBuildSummary&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterforEmail&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterBuildSummary&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestpassDetails&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestFailureDetails&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestskipDetails&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.utility.CustomReporterTestDetails&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TC_DB_02: Verify E2E workflow for package creation and upload signed document for three signer.&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.index.PackageIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TC_DB_02&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.index.PackageIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_DB_02: Verify E2E workflow for package creation and upload signed document for three signer. --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TC_DB_03: Verify E2E workflow for package creation and upload signed document with two signer.&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.index.PackageIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TC_DB_03&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.index.PackageIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_DB_03: Verify E2E workflow for package creation and upload signed document with two signer. --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;10&quot; name=&quot;TC_DB_32 : Verify the functionality when only &amp;#039;required&amp;#039; checkbox is clicked.&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.index.PackageIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TC_DB_32&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.index.PackageIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_DB_32 : Verify the functionality when only &apos;required&apos; checkbox is clicked. --&gt;
+&lt;/suite&gt; &lt;!-- TestCleanUp --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC_DB_02: Verify E2E workflow for package creation and upload signed document for three signer. (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_DB_03: Verify E2E workflow for package creation and upload signed document with two signer. (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_DB_32 : Verify the functionality when only 'required' checkbox is clicked. (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestCleanUp');
+function tableData_TestCleanUp() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_DB_02')
+data.setCell(0, 2, 'com.automation.index.PackageIndex')
+data.setCell(0, 3, 1521396);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_DB_03')
+data.setCell(1, 2, 'com.automation.index.PackageIndex')
+data.setCell(1, 3, 1014516);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_DB_32')
+data.setCell(2, 2, 'com.automation.index.PackageIndex')
+data.setCell(2, 3, 584887);
+window.suiteTableData['TestCleanUp']= { tableData: data, tableDiv: 'times-div-TestCleanUp'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 minutes</span>
+              <div id="times-div-TestCleanUp">
+              </div> <!-- times-div-TestCleanUp -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestCleanUp</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_DB_02</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> TC_DB_02: Verify E2E workflow for package creation and upload signed document for three signer.</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step 1 Enter Username.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Username entered: sy1-dev09-owner@e-signsolutions.com</br></span>
+                <span class="reporter-method-output"><br><strong>Step 2 Enter Password.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Password entered: N#abe7dd95b55c1d635349395d8d9244</br></span>
+                <span class="reporter-method-output"><br><strong>Step 3 Click on Login button.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify user has logged in successfuly.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Welcome DEV09 Account</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 4 Select workflow from dropdown.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 5 Click on 'Create' Button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 6 Enter 'Borrower 1:' details to create package.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Internl Reference: Reference_iXZQQ</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name: autoFnamevePbgLGtdp</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name: autoLnamejoqMmSqdZF</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email : auto_JMJEzGqybFJJSzRiHevq@mailinator.com</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Mobile Number : +61444444444</br></span>
+                <span class="reporter-method-output"><br><strong>Step 7 Choose any random WAFR Attachments.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> 4 Attachments going to be select.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Transfer of Land</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Certificate of Insurance 1</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Certificate of Insurance 3</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> DCC</br></span>
+                <span class="reporter-method-output"><br><strong>Step 8 Enter 'Guarantor 1:' details to create package.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Select Gurantor 1 Check box to enter details.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Guarantor First Name: autoGFnameQtghxqSWjt</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Guarantor Last Name: autoGLnameqhZsFHOtOn</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Guarantor Email : auto_G_gPuxVSQiOqwnnJXEWepT@mailinator.com</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Guarantor Mobile Number : +61444444444</br></span>
+                <span class="reporter-method-output"><br><strong>Step 9 Enter 'Relationship Manager:' details to create package.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Select Relationship Manager Check box to enter details.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager First Name: autoRFnamelkAdOlYHTB</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager Last Name: autoRLnamepGmsqWavhO</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager Email : auto_R_SAAgGiBZeQixgkgfBwkT@mailinator.com</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager Mobile Number : +61444444444</br></span>
+                <span class="reporter-method-output"><br><strong>Step 10 Choose any random WAFR Attachments for Relationship Manager.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Selected WAFR Attachment: </br></span>
+                <span class="reporter-method-output"><br><strong>Step 11 Click on Create Button to Create Package.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 12 Choose 'Cloude Services Agreement' checkbox to upload contract document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 13 Upload any agreenment file template</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 14 Click on 'Send Package' button.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that package has successfully created and found in package table.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_iXZQQ</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_iXZQQ</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;==============================================<br><b><h2> &nbsp;&nbsp; Complete sign document process for Borrower.</h2></b>&nbsp;&nbsp;==============================================<br></br></span>
+                <span class="reporter-method-output"><br><strong>Step 15 Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 16 Enter test email address.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 17 Click on email notiction received from 'ACME Business Banking'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 18 Click on 'Go to My documents' button to navigate Dashboard.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 19 Navigate to other tab and accept Consent.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 20 Click on 'Request SMS Authentication Code' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 21 Enter SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 22 Click on Authenticate button to verify SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that user navigates to 'Documents Portal'.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Verify Borrower is navigated to portal.</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 23 Click on 'View Document' of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 24 Click on 'Back to loan documents portal' button of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'Not Viewed' state has been changed to 'Viewed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 25 Click on 'Sign Online' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 26 Click on Down Arrow button move at the end of document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 27 Click on 'Click to Sign' check mark area.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 28 Click on 'Ok' to accept confirmation</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 29 Click on 'Return to Home' button to navigate back to Portal.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'eSign documents' status changed to 'Signed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 30 Upload Print and Signed WFAR Documents.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  --- 4 Documents are avaiable to upload. ---</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Transfer of Land Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Certificate of Insurance 1 Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Certificate of Insurance 3 Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>DCC Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 31 Click on 'Submit loan documents' to submit signed loan document.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp; Verify Thank you message for borrower.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;==============================================<br><b><h2> Complete sign document process for Guarantor.</h2></b>==============================================<br></br></span>
+                <span class="reporter-method-output"><br><strong>Step 32 Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 33 Enter test email address.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 34 Click on email notiction received from 'ACME Business Banking'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 35 Click on 'Go to My documents' button to navigate Dashboard.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 36 Navigate to other tab and accept Consent.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 37 Click on 'Request SMS Authentication Code' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 38 Enter SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 39 Click on Authenticate button to verify SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that user navigates to 'Documents Portal'.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Verify Guarantor is navigated to portal.</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 40 Click on 'View Document' of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 41 Click on 'Back to loan documents portal' button of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'Not Viewed' state has been changed to 'Viewed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 42 Click on 'Sign Online' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 43 Click on Down Arrow button move at the end of document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 44 Click on 'Click to Sign' check mark area.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 45 Click on 'Ok' to accept confirmation</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 46 Click on 'Return to Home' button to navigate back to Portal.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'eSign documents' status changed to 'Signed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 47 Upload Print and Signed WFAR Documents.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 48 Click on 'Submit loan documents' to submit signed loan document.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp; Verify Thank you message for borrower.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;==============================================<br><b><h2> &nbsp;&nbsp;Complete sign document process for Relationship Manager.</h2></b>&nbsp;&nbsp;==============================================<br></br></span>
+                <span class="reporter-method-output"><br><strong>Step 49 Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 50 Enter test email address.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 51 Click on email notiction received from 'ACME Business Banking'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 52 Click on 'Go to My documents' button to navigate Dashboard.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 53 Navigate to other tab and accept Consent.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 54 Click on 'Request SMS Authentication Code' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 55 Enter SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 56 Click on Authenticate button to verify SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that user navigates to 'Documents Portal'.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Verify Relationship Manager is navigated to portal.</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 57 Click on 'View Document' of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 58 Click on 'Back to loan documents portal' button of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'Not Viewed' state has been changed to 'Viewed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 59 Click on 'Sign Online' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 60 Click on Down Arrow button move at the end of document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 61 Click on 'Click to Sign' check mark area.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 62 Click on 'Ok' to accept confirmation</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 63 Click on 'Return to Home' button to navigate back to Portal.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'eSign documents' status changed to 'Signed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 64 Upload Print and Signed WFAR Documents.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  --- 1 Documents are avaiable to upload. ---</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>DCC Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 65 Click on 'Submit loan documents' to submit signed loan document.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp; Verify Thank you message for borrower.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that Borrower has received an email notification after completion of 3 signer process.</h3></b></span>
+                <span class="reporter-method-output"><br><strong>  -> Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>  -> Enter test email address for Borrower: auto_JMJEzGqybFJJSzRiHevq</strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that Guarantor has received an email notification after completion of 3 signer process.</h3></b></span>
+                <span class="reporter-method-output"><br><strong>  -> Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>  -> Enter test email address for Guarantor : auto_G_gPuxVSQiOqwnnJXEWepT</strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that Relationship Manager has received an email notification after completion of 3 signer process.</h3></b></span>
+                <span class="reporter-method-output"><br><strong>  -> Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>  -> Enter test email address for Relationship Manager: auto_R_SAAgGiBZeQixgkgfBwkT</strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_DB_03</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> TC_DB_03: Verify E2E workflow for package creation and upload signed document with two signer.</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step 1 Enter Username.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Username entered: sy1-dev09-owner@e-signsolutions.com</br></span>
+                <span class="reporter-method-output"><br><strong>Step 2 Enter Password.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Password entered: N#abe7dd95b55c1d635349395d8d9244</br></span>
+                <span class="reporter-method-output"><br><strong>Step 3 Click on Login button.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify user has logged in successfuly.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Welcome DEV09 Account</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 4 Select workflow from dropdown.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 5 Click on 'Create' Button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 6 Enter 'Borrower 1:' details to create package.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Internl Reference: Reference_CwsIc</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name: autoFnamehJPoggKhPy</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name: autoLnameIMufuvbYRN</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email : auto_HZIFiBtlthcvRchiucBW@mailinator.com</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Mobile Number : +61444444444</br></span>
+                <span class="reporter-method-output"><br><strong>Step 7 Choose any random WAFR Attachments.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> 3 Attachments going to be select.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Transfer of Land</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Certificate of Insurance 1</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Certificate of Insurance 3</br></span>
+                <span class="reporter-method-output"><br><strong>Step 8 Enter 'Relationship Manager:' details to create package.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Select Relationship Manager Check box to enter details.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager First Name: autoRFnamelbtjOBuLzv</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager Last Name: autoRLnamenvHtcfiKMC</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager Email : auto_R_qTSvsUZjlSlOsOXZFYCZ@mailinator.com</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Relationship Manager Mobile Number : +61444444444</br></span>
+                <span class="reporter-method-output"><br><strong>Step 9 Choose any random WAFR Attachments for Relationship Manager.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Selected WAFR Attachment: </br></span>
+                <span class="reporter-method-output"><br><strong>Step 10 Click on Create Button to Create Package.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 11 Choose 'Cloude Services Agreement' checkbox to upload contract document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 12 Upload any agreenment file template</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 13 Click on 'Send Package' button.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that package has successfully created and found in package table.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_CwsIc</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_CwsIc</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;==============================================<br><b><h2> &nbsp;&nbsp; Complete sign document process for Borrower.</h2></b>&nbsp;&nbsp;==============================================<br></br></span>
+                <span class="reporter-method-output"><br><strong>Step 14 Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 15 Enter test email address.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 16 Click on email notiction received from 'ACME Business Banking'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 17 Click on 'Go to My documents' button to navigate Dashboard.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 18 Navigate to other tab and accept Consent.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 19 Click on 'Request SMS Authentication Code' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 20 Enter SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 21 Click on Authenticate button to verify SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that user navigates to 'Documents Portal'.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Verify Borrower is navigated to portal.</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 22 Click on 'View Document' of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 23 Click on 'Back to loan documents portal' button of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'Not Viewed' state has been changed to 'Viewed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 24 Click on 'Sign Online' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 25 Click on Down Arrow button move at the end of document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 26 Click on 'Click to Sign' check mark area.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 27 Click on 'Ok' to accept confirmation</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 28 Click on 'Return to Home' button to navigate back to Portal.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'eSign documents' status changed to 'Signed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 29 Upload Print and Signed WFAR Documents.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  --- 3 Documents are avaiable to upload. ---</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Transfer of Land Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Certificate of Insurance 1 Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Certificate of Insurance 3 Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 30 Click on 'Submit loan documents' to submit signed loan document.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp; Verify Thank you message for borrower.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;==============================================<br><b><h2> &nbsp;&nbsp;Complete sign document process for Relationship Manager.</h2></b>&nbsp;&nbsp;==============================================<br></br></span>
+                <span class="reporter-method-output"><br><strong>Step 31 Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 32 Enter test email address.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 33 Click on email notiction received from 'ACME Business Banking'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 34 Click on 'Go to My documents' button to navigate Dashboard.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 35 Navigate to other tab and accept Consent.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 36 Click on 'Request SMS Authentication Code' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 37 Enter SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 38 Click on Authenticate button to verify SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that user navigates to 'Documents Portal'.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Verify Relationship Manager is navigated to portal.</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 39 Click on 'View Document' of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 40 Click on 'Back to loan documents portal' button of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'Not Viewed' state has been changed to 'Viewed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 41 Click on 'Sign Online' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 42 Click on Down Arrow button move at the end of document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 43 Click on 'Click to Sign' check mark area.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 44 Click on 'Ok' to accept confirmation</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 45 Click on 'Return to Home' button to navigate back to Portal.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'eSign documents' status changed to 'Signed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 46 Upload Print and Signed WFAR Documents.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  --- 1 Documents are avaiable to upload. ---</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>DCC Optional</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Clicked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Optional' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 47 Click on 'Submit loan documents' to submit signed loan document.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp; Verify Thank you message for borrower.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that Borrower has received an email notification after completion of 3 signer process.</h3></b></span>
+                <span class="reporter-method-output"><br><strong>  -> Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>  -> Enter test email address for Borrower: auto_HZIFiBtlthcvRchiucBW</strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that Relationship Manager has received an email notification after completion of 3 signer process.</h3></b></span>
+                <span class="reporter-method-output"><br><strong>  -> Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>  -> Enter test email address for Relationship Manager: auto_R_qTSvsUZjlSlOsOXZFYCZ</strong></br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_DB_32</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> TC_DB_32: Verify the functionality when only 'required' checkbox is clicked.</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step 1 Enter Username.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Username entered: sy1-dev09-owner@e-signsolutions.com</br></span>
+                <span class="reporter-method-output"><br><strong>Step 2 Enter Password.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Password entered: N#abe7dd95b55c1d635349395d8d9244</br></span>
+                <span class="reporter-method-output"><br><strong>Step 3 Click on Login button.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp; Verify user has logged in successfuly.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Welcome DEV09 Account</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 4 Select workflow from dropdown.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 5 Click on 'Create' Button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 6 Enter Borrower details to create package.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Internl Reference: Reference_ztWte</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> First Name: autoFnamevlqwtMaLQG</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Last Name: autoLnamemUyyWHUYFA</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Email : auto_jaRLGGEqvhsROtSxGKSu@mailinator.com</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Mobile Number : +61444444444</br></span>
+                <span class="reporter-method-output"><br><strong>Step 7 Choose any random Required Attachments.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> 2 Attachments going to be select.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Transfer of Land</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Certificate of Insurance 1</br></span>
+                <span class="reporter-method-output"><br><strong>Step 8 Click on Create Button to Create Package.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 9 Choose 'Cloude Services Agreement' checkbox to upload contract document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 10 Upload any agreenment file template</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 11 Click on 'Send Package' button.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that package has successfully created and found in package table.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_ztWte</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;Reference_ztWte</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 12 Open Mailinator to check if user has received package created notification.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 13 Enter test email address.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 14 Click on email notiction received from 'ACME Business Banking'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 15 Click on 'Go to My documents' button to navigate Dashboard.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 16 Navigate to other tab and accept Consent.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 17 Click on 'Request SMS Authentication Code' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 18 Enter SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 19 Click on Authenticate button to verify SMS Code.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that user navigates to 'Documents Portal'.</h3></b></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  ->Verify Borrower is navigated to portal.</br></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 20 Click on 'View Document' of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 21 Click on 'Back to loan documents portal' button of 'Product Disclosure Statement'.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'Not Viewed' state has been changed to 'Viewed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 22 Click on 'Sign Online' button.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 23 Click on Down Arrow button move at the end of document.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 24 Click on 'Click to Sign' check mark area.</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 25 Click on 'Ok' to accept confirmation</strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 26 Click on 'Return to Home' button to navigate back to Portal.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify that 'eSign documents' status changed to 'Signed'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 27 Upload Print and Signed WFAR Documents.</strong></br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  --- 2 Documents are avaiable to upload. ---</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Transfer of Land Incomplete</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Cilcked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Cancel button to close existing. </br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Incomplete' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Document <b>Certificate of Insurance 1 Incomplete</b> is going to be upload.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Cilcked on Upload button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Check the 'I have printed, signed and scanned all pages of the document' checkbox.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on 'Ready to Upload' Button.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Upload any Document.</br></span>
+                <span class="reporter-method-output"></br>&nbsp;&nbsp;&nbsp;&nbsp;  -> Click on Upload Now button to upload the Document.</br></span>
+                <span class="reporter-method-output"><h3><b style='color:#E27A12'>&nbsp;&nbsp;&nbsp;  Verify that 'Incomplete' state has changed to 'File Uploaded'.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+                <span class="reporter-method-output"><br><strong>Step 28 Click on 'Submit loan documents' to submit signed loan document.</strong></br></span>
+                <span class="reporter-method-output"><h3><b style='color:#1466B8'>&nbsp;&nbsp;&nbsp;Verify Thank you message for borrower.</h3></b></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkGreen">  &#10004; <i>  SUCCESSFUL </i></h3> </strong> </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">90 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.index.PackageIndex</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC_DB_31</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_31</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_31</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_30</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_30</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_30</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_36</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_36</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_36</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_33</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_33</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_33</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_32</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_32</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_35</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_35</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_35</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_34</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_34</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_34</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_25</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_25</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_25</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_28</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_28</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_28</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_27</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_27</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_27</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_22</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_22</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_22</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_24</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_24</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_24</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_23</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_23</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_23</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_29</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_29</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_29</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_26</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_26</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_26</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_14</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_14</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_14</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_11</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_11</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_11</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_10</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_10</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_10</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_13</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_13</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_13</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_12</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_12</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_12</span>
+                <br/>
+                <span class="ignored-method-name">testMobile</span>
+                <br/>
+                <span class="ignored-method-name">testMobile</span>
+                <br/>
+                <span class="ignored-method-name">testMobile</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_15</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_15</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_15</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_03</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_03</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_06</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_06</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_06</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_05</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_05</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_05</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_02</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_02</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_01</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_01</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_01</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_08</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_08</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_08</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_07</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_07</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_07</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_09</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_09</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_09</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_04</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_04</span>
+                <br/>
+                <span class="ignored-method-name">TC_DB_04</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestCleanUp" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.index.PackageIndex</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@5a6499a2)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.automation.index.PackageIndex.TC_DB_02(), org.testng.TestRunner@5a6499a2)</span>
+                <span class="method-start">1179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_DB_02</span>
+                <span class="method-start">28764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_DB_02 status=SUCCESS method=PackageIndex.TC_DB_02()[pri:0, instance:com.automati...)</span>
+                <span class="method-start">1550165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@13b1a869)</span>
+                <span class="method-start">1561795 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.automation.index.PackageIndex.TC_DB_03(), org.testng.TestRunner@13b1a869)</span>
+                <span class="method-start">1561875 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_DB_03</span>
+                <span class="method-start">1586783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_DB_03 status=SUCCESS method=PackageIndex.TC_DB_03()[pri:0, instance:com.automati...)</span>
+                <span class="method-start">2601305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@26ce7e84)</span>
+                <span class="method-start">2612758 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.automation.index.PackageIndex.TC_DB_32(), org.testng.TestRunner@26ce7e84)</span>
+                <span class="method-start">2612785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_DB_32</span>
+                <span class="method-start">2638624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=TC_DB_32 status=SUCCESS method=PackageIndex.TC_DB_32()[pri:0, instance:com.automati...)</span>
+                <span class="method-start">3223514 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

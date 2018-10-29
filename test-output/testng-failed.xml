@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [TestCleanUp]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="m-headless"/>
+  <parameter name="selenium.url" value="http://google.com"/>
+  <listeners>
+    <listener class-name="com.automation.utility.CustomReporterListener"/>
+    <listener class-name="com.automation.utility.CustomReporterEmailBuildSummary"/>
+    <listener class-name="com.automation.utility.CustomReporterforEmail"/>
+    <listener class-name="com.automation.utility.CustomReporterBuildSummary"/>
+    <listener class-name="com.automation.utility.CustomReporterTestpassDetails"/>
+    <listener class-name="com.automation.utility.CustomReporterTestFailureDetails"/>
+    <listener class-name="com.automation.utility.CustomReporterTestskipDetails"/>
+    <listener class-name="com.automation.utility.CustomReporterTestDetails"/>
+  </listeners>
+  <test thread-count="1" verbose="10" name="TC_DB_32 : Verify the functionality when only &#039;required&#039; checkbox is clicked.(failed)" parallel="tests">
+    <classes>
+      <class name="com.automation.index.PackageIndex">
+        <methods>
+          <include name="TC_DB_32"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+        </methods>
+      </class> <!-- com.automation.index.PackageIndex -->
+    </classes>
+  </test> <!-- TC_DB_32 : Verify the functionality when only 'required' checkbox is clicked.(failed) -->
+</suite> <!-- Failed suite [TestCleanUp] -->
